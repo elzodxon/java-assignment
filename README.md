@@ -1,6 +1,19 @@
-Hotel-Management-OOP-Project
-----
-This is a Hotel Management tool which can be used to manage activites like storing customer details, booking rooms of four different types, ordering food for particular rooms, unbooking rooms and showing the bill. It can also be used to see different room features and room availibility. It is a menu driven program and it runs until the user exits. File handling has been used to store the current status of the hotel(customer details, booked rooms, food ordered) in a file once the program exits so that when we restart the program, the old details are not lost. The program reads the file when it restarts to know the previous status of the hotel. Writing of file has been done in a separate thread as it can be done parallely. User defined exception is thrown if the user tries to book an already allotted room. Exception handling is properly done to deal with any kind of unexpected exception.
+This Hotel Management tool helps manage various operations such as storing customer information, booking rooms across four different categories, placing food orders for specific rooms, cancelling room bookings, and generating bills. It also allows users to check room features and current availability. The application is menu-driven and continues running until the user chooses to exit.
 
-Topics Covered-
-Classes and Objects, Inheritance, File Handling with Objects, ArrayList, implementing Interface, User defined exception and Exception handling.
+To preserve the hotel's current status—such as customer data, room bookings, and food orders—the program uses file handling to save this information when it exits. Upon restarting, it reads from the saved file to restore the previous state. File writing is handled in a separate thread to allow parallel execution. A custom exception is thrown if an attempt is made to book a room that’s already occupied, and comprehensive exception handling ensures the program can manage unexpected errors effectively.
+
+Key Concepts Covered:
+
+Classes and Objects
+
+Inheritance
+
+File Handling with Objects
+
+ArrayList
+
+Interface Implementation
+
+User-Defined Exceptions
+
+Exception Handling
